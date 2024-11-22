@@ -1,14 +1,11 @@
 {
-  "name": "software-testing-assignment",
+  "name": "comp-se-200-assignment-part-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repo for COMP.SE.200-2024-2025-1 Software Testing assignment part 2",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "ISC"
 }
