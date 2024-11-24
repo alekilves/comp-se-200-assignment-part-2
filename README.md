@@ -141,13 +141,10 @@ The `.github/workflows/ci.yml` file automates the testing process. Key steps inc
 
 ---
 
-### Adding Coverage Badge
+### Coverage Badge
 
-Once the integration with Coveralls is complete, add a badge to the `README.md` file:
-
-```markdown
 [![Coverage Status](https://coveralls.io/repos/github/alekilves/comp-se-200-assignment-part-2/badge.svg?branch=main)](https://coveralls.io/github/alekilves/comp-se-200-assignment-part-2?branch=main)
-```
+
 
 
 ---

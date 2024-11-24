@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "c8 npm test"
+    "coverage": "c8 --reporter=lcov --reporter=text npm test"
   },
   "author": "",
   "license": "ISC",
