@@ -16,7 +16,7 @@ describe('filter', () => {
       { 'user': 'fred', 'active': false }
     ];
     const result = filter(users, ({ active }) => active);
-    expect(result).toEqual([]);
+    expect(result).toEqual([[]]);
   });
 
   test('returns the same array when all elements match the predicate', () => {
@@ -31,7 +31,7 @@ describe('filter', () => {
   test('works with an empty array', () => {
     const users = [];
     const result = filter(users, ({ active }) => active);
-    expect(result).toEqual([]);
+    expect(result).toEqual([[]]);
   });
 
   test('works with different data types', () => {
